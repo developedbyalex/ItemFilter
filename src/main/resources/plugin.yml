@@ -1,0 +1,11 @@
+main: me.eeshe.itemfilter.ItemFilter
+name: ItemFilter
+version: 1.0
+author: Eeshe
+softdepend: [ HeadDatabase]
+
+commands:
+  filter:
+    aliases: [ ft ]
+
+api-version: 1.13

@@ -1,0 +1,37 @@
+# Settings regarding the Filter Settings GUI.
+gui-settings:
+  frame-item: BLACK_STAINED_GLASS_PANE
+  page-item: WHITE_STAINED_GLASS_PANE
+  empty-filler: GRAY_STAINED_GLASS_PANE
+  # Name the item to delete all filters will have
+  delete-filters-item-name: '&cDelete all filters'
+  # Head DataBase ID
+  gui-head-id: 23224
+  item-lore:
+    - '&eClick me to remove me from the filter.'
+
+messages:
+  unknown-command: '&cUnknown command. Run &l/filter &chelp to see the full list of commands.'
+  not-console-command: 'Not available for consoles.'
+  no-permission: '&cYou don''t have permissions to run this command.'
+
+  help-command-info: 'Displays this list.'
+  help-command-usage: '/filter help'
+
+  reload-command-info: 'Reloads the plugin''s configuration file.'
+  reload-command-usage: '/filter reload'
+  reload-command-success: '&aConfiguration successfully reloaded.'
+
+  add-command-info: 'Adds an item to your item filter.'
+  add-command-usage: '/filter add <Item> || /filter add'
+  empty-hand: '&cYou don''t have any items on your main hand right now.'
+  unknown-item: '&cUnknown item &l''%item%''&c.'
+  filters-exceeded: '&cYou can''t have any more filters.'
+  item-already-filtered: '&cYou already filtered this item.'
+  add-command-success: '&8(&e!&8) &7You’ve added &e%item% &7to your filter list. You can no longer pick up this item.'
+
+  remove-command-info: 'Opens the Filter Settings GUI to remove items from the filter.'
+  remove-command-usage: '/filter remove'
+  remove-confirmation: '&eClick again to confirm the operation.'
+  remove-all-filters: '&8(&e!&8) &7You have cleared your filter list.'
+  remove-single-filter: '&8(&e!&8) &7You’ve removed &e%item% &7from your filter list. You are now able to pickup this item.'
